@@ -9,7 +9,7 @@ public class DAOVenda {
 
   private DAOVenda() {
     super();
-  }
+  } 
 
   public static DAOVenda getInstance() {
     return instance;
