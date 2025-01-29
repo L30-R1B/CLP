@@ -72,3 +72,7 @@ func (p *Produto) SetNome(nome string) {
 func (p *Produto) SetValor(valor float64) {
 	p.Valor = valor // Atualiza o campo Valor com o valor fornecido.
 }
+
+func (i ItemVenda) String() string {
+	return fmt.Sprintf("%15s %8.2f x %5d = %8.2f", i.Produto.GetNome(), i.Valor, i.Quantidade, i.Valor*float64(i.Quantidade))
+}
