@@ -5,7 +5,6 @@ package entidades
 // Cada arquivo no mesmo diretório, com o mesmo nome de pacote, pertence a esse pacote.
 
 // Entidade define os métodos que uma entidade deve ter.
-// Este é um exemplo de interface em Go.
 // Interfaces em Go não especificam como algo é implementado, apenas o que deve ser implementado.
 // Isso permite que diferentes tipos satisfaçam uma interface, tornando o código mais flexível e reutilizável.
 type Entidade interface {
